@@ -5,12 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- vdo ref: https://www.youtube.com/watch?v=qZXt1Aom3Cs&list=PLiw_FKUS18PjJnHkdJ7b2aenWoDU-KLms&index=1&t=5154s
+    channel: Traversy Media-->
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+
+    <!-- Connecting vue files with html: 
+      Firstly we create multiple vue files in the 
+      components folder and link them up with the App.vue file.
+      Then we further link App.vue file with main.js, which we 
+      finally connect with index.html (or any html file)
+      E.g : Header.vue -> App.vue -> main.js -> index.html  
+    -->
+    
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

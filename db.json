@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "text": "FootDocDana's Appoinment",
+      "day": "March 1st 2:30pm",
+      "reminder": true
+    },
+    {
+      "text": "Laundry",
+      "day": "friday",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Washing & drying",
+      "day": "anyday",
+      "reminder": false,
+      "id": 6
+    }
+  ]
+}
